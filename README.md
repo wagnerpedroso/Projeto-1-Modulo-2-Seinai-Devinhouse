@@ -15,6 +15,8 @@ Objetivo foi a criação de uma aplicação web para controle e cálculo de uma 
 A aplicação contem requisitos solicitados, sendo codificada em html, css, javascript e markdown (para o readme.md). As imagens a seguir demonstram exemplos da aplicação que foi desenvolvida.
 
 
+<img src="/img/Index.png" alt="Index"/>
+<img src="/img/IndexDarkMode.png" alt="Index"/>
 
 3 REQUISITOS DA APLICAÇÃO
 A aplicação que deverá ser realizada individualmente, deve contemplar os seguintes requisitos:
