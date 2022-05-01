@@ -4,13 +4,6 @@ Projeto desenvolvido por Wagner pedroso.
 
 Finalizado 01/04/22
 
-SUMÁRIO
-
-1 INTRODUÇÃO	
-
-2 EXEMPLO DE APLICAÇÃO	
-
-3 REQUISITOS DA APLICAÇÃO	
 
 1 INTRODUÇÃO
 
