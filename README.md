@@ -1,17 +1,21 @@
 # Projeto-1-Modulo-2-Seinai-Devinhouse
+
 Projeto desenvolvido por Wagner pedroso. 
 
 Finalizado 01/04/22
 
 SUMÁRIO
+
 1 INTRODUÇÃO	
 2 EXEMPLO DE APLICAÇÃO	
 3 REQUISITOS DA APLICAÇÃO	
 
 1 INTRODUÇÃO
+
 Objetivo foi a criação de uma aplicação web para controle e cálculo de uma lista de compras de supermercado, levando requisitos solicitados exemplo de baixa fidelidade entregue pela instituição Senai Projeto 1 - Módulo 2.
 
 2 EXEMPLO DE APLICAÇÃO
+
 A aplicação contem requisitos solicitados, sendo codificada em html, css, javascript e markdown (para o readme.md). As imagens a seguir demonstram exemplos da aplicação que foi desenvolvida.
 
 
