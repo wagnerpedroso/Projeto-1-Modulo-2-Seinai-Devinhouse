@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title> Mercado App </title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon-mercado.png">
+</head>
+<body>
+    <head>
+        <h1 class="nome">Bem vindo ao seu aplicativo mercado. </h1>
+    </head>
+    <main>
+        <div class="container">
+            <div class="btn"></div>
+            <h2 class="nome2">Insira os intens e valores de sua compra á baixo. </h2>
+            <h2 class="texto">Carrinho</h2>
+            <div class="padrao">
+                <!--autofocus-->
+                <!--required-->
+                <!--placeholder-->
+                <!--size-->
+                <input type="text" class="inserir" placeholder="Adicionar produto no carrinho" autofocus>
+                &nbsp;
+                <button class="botao" type="submit">Adicionar</button>
+                <div class="select">
+                    <select name="todos" class="filter-todo">
+                        <option value="all">Produtos</option>
+                        <option value="completed">Produtos no carrinho</option>
+                        <option value="uncompleted">Produtos á procurar.</option>
+                    </select>
+                </div>
+                <button onclick="document.getElementById('id01').style.display='block'" class="botao">Valor</button>
+                <div id="id01" class="popup">
+                    <span onclick="document.getElementById('id01').style.display='none'">&times;</span>
+                    <h2>Valor</h2>
+                    <p>Insira o valor do produto.</p>
+                    <input type="number" class="inserir" min="0" step="2" placeholder="Valor do Produto R$">
+                    <button class="botao" type="submit">Adicionar</button>
+                </div>
+                <h1>Lista de produtos</h1>
+                <div class="lista">
+                    <ul class="listaProduto"></ul>
+                    <div>
+                        <h2>Total</h2>
+                        <h1 id="total">R$ 0.00</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form>
+            <div id="popup" class="popup">
+                <li>Botão para riscar itens escolhidos. </li> <br>
+                <li>Botão para remover item. </li> <br>
+                <li>Botão para inserir valor do item. (Temporariamente realocado e indisponível.) </li>
+                <br>
+                <br>
+                <p> Caso caia a conexão não se preocupe, seus itens permanecerão salvos.</li>
+            </div>
+            <h4 class="nome1">Em caso de duvida de como usar o aplicativo: </h4>
+            <!--ações para o popup -->
+            <a class='button' href="javascript: abrir();">Abrir instruções de uso.</a><br>
+            <a class='button' href="javascript: fechar();">Fechar intruções de uso.</a><br>
+            <br><br><br>
+        </form>
+    </main>
+</body>
+</html>
