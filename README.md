@@ -19,6 +19,7 @@ A aplicação contem requisitos solicitados, sendo codificada em html, css, java
 <img src="/img/IndexDarkMode.png" alt="Index"/>
 
 3 REQUISITOS DA APLICAÇÃO
+
 A aplicação que deverá ser realizada individualmente, deve contemplar os seguintes requisitos:
 Um título na aba do navegador, para que o usuário encontre a sua aplicação no meio das várias abas que constantemente mantém abertas.
 Um cabeçalho dentro da página, para que o usuário saiba facilmente em que página se encontra e do que se trata o conteúdo.
